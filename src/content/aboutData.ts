@@ -1,24 +1,19 @@
-
-
 import type { AboutData } from "@/types/about";
 
+export const aboutData: AboutData = {
+  title: "About Our Fitness Center",
 
-export const  aboutData: AboutData= {
-    title: "About Our Salon",
-    description:
-      "We are a professional beauty and wellness salon dedicated to helping our clients look confident and feel beautiful. Our experienced stylists and beauty experts combine modern techniques with personalized care to deliver exceptional results every time.Whether it`s a regular grooming session or a special occasion makeover, we focus on quality, hygiene, and customer satisfaction in everything we do.",
+  description:
+    "We are a dedicated fitness and wellness center focused on helping individuals build strength, improve endurance, and achieve a healthier lifestyle. Our certified trainers combine structured workout programs with personalized guidance to deliver safe, effective, and sustainable fitness results. Whether you are just starting your fitness journey or training to reach new performance goals, we provide a supportive environment that prioritizes progress, consistency, and overall well-being.",
 
-    bulletPoints: [  
-			"Experienced and certified beauty professionals",
-			"Premium-quality products and tools",
-			"Clean, safe, and hygienic environment",
-			"Personalized beauty solutions for every client",
-			"Affordable pricing with no hidden charges",		
-    ],
-		
-		
-    imageUrl: "/about/about.jpg",
-    imageAltText: "About section image",   
+  bulletPoints: [
+    "Certified and experienced fitness trainers",
+    "Modern equipment and structured training programs",
+    "Clean, safe, and well-maintained workout environment",
+    "Personalized fitness plans for all levels",
+    "Flexible membership options with transparent pricing",
+  ],
 
-  };
-	
+  imageUrl: "/about/about.jpg",
+  imageAltText: "Fitness center training environment",
+};

@@ -29,23 +29,26 @@ body {
 
 :root {
   /* Core brand colors */
-  --color-primary: rgba(250,21,21,1);    /* Teal */ 
-  --color-accent: #111827;     /* Deep gray for highlights */
+  --color-primary: #0D9488;    
+  --color-accent: #06B6D4;     
+  --color-secondary: #14B8A6; 
 
   /* Base UI colors */
-  --color-background: #ffffff;
-  --color-surface: rgba(249,250,251,1);
-  --color-border: #e5e7eb;
+  --color-background: #F9FAFB;
+  --color-surface: #FFFFFF;
+  --color-border: #E5E7EB;
 
   /* Typography */
   --color-text-primary: #111827;
-  --color-text-secondary: #6b7280;
-  --color-text-tertiary: #ffffff;
+  --color-text-secondary: #6B7280;
+  --color-text-tertiary: #FFFFFF;
 
   /* UI effects */
-  --radius-base: 0.75rem;  /* Rounded corners */
+  --radius-base: 0.75rem;
   --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
+
+
 
 html {
   scroll-behavior: smooth;

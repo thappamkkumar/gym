@@ -1,8 +1,8 @@
 import type { FooterData, FooterHeading } from "@/types/footer";
-
+import {businessName} from './siteConfig';
 export const footerData: FooterData = {
     copyright:
-      "© 2025 Your Business Name. All rights reserved.",
+      "© 2025 "+ businessName +". All rights reserved.",
     socialLinks: [
       { label: "Instagram", href: "#" },
       { label: "Facebook", href: "#" },
@@ -12,8 +12,6 @@ export const footerData: FooterData = {
 	
 
 export const footerHeading: FooterHeading = {
-	footerPrimaryHeading : "Your Trusted Beauty & Salon Destination",
-	 
- 
-}
+  footerPrimaryHeading: "Your Trusted Fitness & Wellness Destination",
+};
 
